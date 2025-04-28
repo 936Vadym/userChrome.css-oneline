@@ -11,7 +11,7 @@
 Для відтворення вигляду подібно до мого - рекомендую розширення:
 
 - 1: [Tab counter автор WaldiPL](https://addons.mozilla.org/uk/firefox/addon/tabcounter-1/): Просто зручно бачити кіл-сть вкладок.
-    ![[Знімок екрана 2025-04-28 234952.png]]
+    ![Знімок екрана 2025-04-28 234952.png]
 - 2: [Auto Tab Discard автор tlintspr](https://addons.mozilla.org/uk/firefox/addon/auto-tab-discard/): Вивантажувати самому або автоматично. У мене вкладок в середньому відкрито 50-70. Через що LibreWolfe Portable підвисає.
     
 - 3: [Dark Background and Light Text автор Mikhail Khvoinitsky](https://addons.mozilla.org/uk/firefox/addon/dark-background-light-text/): Перефарбовує любу веб-сторінку. Люблю це. Мої налаштування:
