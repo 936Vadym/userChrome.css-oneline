@@ -9,13 +9,11 @@
 Коротше це типу бекап, але якщо Вам сподобалось - будь ласка користуйтесь.
 
 Для відтворення вигляду подібно до мого - рекомендую розширення:
-
 - 1: [Tab counter автор WaldiPL](https://addons.mozilla.org/uk/firefox/addon/tabcounter-1/): Просто зручно бачити кіл-сть вкладок.
     ![Tab Counter](Tab-counter.png)
-- 2: [Auto Tab Discard автор tlintspr](https://addons.mozilla.org/uk/firefox/addon/auto-tab-discard/): Вивантажувати самому або автоматично. У мене вкладок в середньому відкрито 50-70. Через що LibreWolfe Portable підвисає.
-    
+- 2: [Auto Tab Discard автор tlintspr](https://addons.mozilla.org/uk/firefox/addon/auto-tab-discard/): Вивантажувати самому або автоматично. У мене вкладок в середньому відкрито 50-70. Через що LibreWolfe Portable підвисає.  
 - 3: [Dark Background and Light Text автор Mikhail Khvoinitsky](https://addons.mozilla.org/uk/firefox/addon/dark-background-light-text/): Перефарбовує любу веб-сторінку. Люблю це. Мої налаштування:
-    
+
 |     | Параметр                               | Значення             |
 | --- | -------------------------------------- | -------------------- |
 |     | Default method of changing page colors | Stylesheet processor |
@@ -27,9 +25,9 @@
 |     | Default selection color                | #8080ff              |
 
 - 4: [NoScript Security Suite автор Giorgio Maone](ns.mozilla.org/uk/firefox/addon/noscript/): Більшість нав'язливої реклами та відстежуваних штук - йде саме від скріптів. Те що не може заблокувати "uBlock Origin", просто не запустить це розширення.
-
 - "Sideberry" або "Tab Center Reborn" (довгий час я саме ним користувався, але донедавна встановив Sideberry).
-    
 - 5: Список усіх вкладок - це дефолтний функціонал, той що з права поряд з кнопками "згорнути, розширити, закрити", але в другому місці, з іншою іконкою. Тому просто звернув увагу.
+- 6: [Simple Tab Groups автор Drive4ik](https://addons.mozilla.org/uk/firefox/addon/simple-tab-groups/).
 
 А також треба розставити іконки на панелі.
+![no](dva.png)
