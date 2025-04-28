@@ -12,7 +12,7 @@
 
 Коротше це типу бекап, але якщо Вам сподобалось - будь ласка користуйтесь.
 
-Для відтворення вигляду подібно до мого - рекомендую розширення:
+## Рекомендую розширення:
 ![screen](screen.png)
 - 1: [Tab counter автор WaldiPL](https://addons.mozilla.org/uk/firefox/addon/tabcounter-1/): Просто зручно бачити кіл-сть вкладок.
     ![Tab Counter](Tab-counter.png)
