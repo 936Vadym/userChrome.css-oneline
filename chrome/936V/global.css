@@ -1,0 +1,97 @@
+/*####################################################################*/
+::part(overflow-start-indicator), /* Індикатори початку переповнення */
+::part(overflow-end-indicator), /* Індикатори кінця переповнення */
+.titlebar-spacer, /* Розділювач в заголовку */
+/*.titlebar-spacer[type="post-tabs"], /* Додатковий розділювач в заголовку */
+#nav-bar-overflow-button, /* Кнопка переповнення навігаційної панелі */
+#forward-button, /* Кнопка "Вперед" */
+.tab-close-button, /* Кнопка закриття на вкладці */ 
+#tabbrowser-tabs .tabbrowser-tab:not([selected]), /* Неактивні вкладки */ 
+/*#alltabs-button, /* Кнопка усі вкладки */
+#new-tab-button /* Кнопка нової вкладки */
+{
+    display: none; 
+}
+/*####################################################################*/
+#identity-box, /* Контейнер з ідентифікаційною інформацією, коли це можливо (Відображає інформацію про поточний веб-сайт. Він містить іконку сайту (favicon), значок безпеки (захищений чи не захищений сайт) і інші елементи)*/ 
+#nav-bar-customization-target 
+{
+    flex-shrink: 9 !important; 
+}
+
+#tabs-newtab-button,
+#tabcounter_waldemar_b-browser-action,
+#home-button /* Кнопка "Додому" */
+{ 
+    flex-shrink: 0 !important; 
+}
+
+#preferences-button,
+#unified-extensions-button
+{ 
+    flex-shrink: 5 !important; 
+}
+
+/*####################################################################*/
+#urlbar[open]:focus-within
+{ 
+	min-width: var(--uc-urlbar-min-width,none) !important; 
+	/* Перекриває елементи браузера при вводі в полі адресу посилання */
+}
+#urlbar-container /* Адресний рядок */
+{ 
+  min-width: 30px !important; 
+  flex-shrink: 5 !important;
+}
+/*#####################################################################*/
+/*#####*//* Активна вкладка (таби)  *//*#####*/
+#tabbrowser-tabs .tabbrowser-tab[selected] 
+{
+    -moz-user-select: none !important;		/* Вивикає взаємодію з ... */
+    max-width: none !important;		/* Вимикає максимальне обмеження по ширині ... */
+    min-width: auto !important;		/* Автоматична мінімальні обмеження по ширини ... */
+    width: auto !important;		/* Автоматична ширина ... */
+	-moz-window-dragging: drag !important;		/* Робимо так, щоб панель можна було використовувати для перетягування вікна */
+}
+/*#####################################################################*/
+.titlebar-button.titlebar-min 
+{
+	padding: 6px 6px !important;
+}
+.titlebar-button.titlebar-max,
+.titlebar-button.titlebar-restore 
+{
+	padding: 6px 8px !important;
+}
+.titlebar-button.titlebar-close 
+{
+	padding: 6px 6px !important;
+}
+/*.titlebar-button  
+{
+	padding: 6px 6px !important;
+}*/
+#tabbrowser-tabs .tabbrowser-tab[selected] 
+{
+    padding: 0 !important; /* Прибираємо зайві відступи */
+    margin: 0 !important; /* Прибираємо зайві відступи */
+	
+}
+
+/*####################################################################*/
+/*#####*//* Намагаюсь вирівняти панель вкладок з панелью адресної строки *//*#####*/
+.toolbar-items
+{
+	height: 40px !important;
+}
+
+#TabsToolbar-customization-target,
+#tabbrowser-tabs,
+.tabbrowser-tab,
+.tab-content,
+#tabbrowser-arrowscrollbox
+{
+	height: 41px !important;
+}
+/*####################################################################*/
+
