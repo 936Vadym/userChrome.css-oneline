@@ -30,4 +30,4 @@
 - 6: [Simple Tab Groups автор Drive4ik](https://addons.mozilla.org/uk/firefox/addon/simple-tab-groups/).
 
 А також треба розставити іконки на панелі.
-![no](dva.png)
+![screen](screen.png)
