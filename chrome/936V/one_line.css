@@ -1,0 +1,59 @@
+/*####################################################################*/
+@media screen and (max-width: 1500px) /* Стилі для екранів з максимальною шириною 1500 пікселів */ 
+{
+    #identity-permission-box,
+    #tracking-protection-icon-container,
+	#identity-icon-box,
+    #scrollbutton-up, /* кнопка прокрутки табів вліво */
+    #scrollbutton-down { /* кнопка прокрутки табів вправо */
+        display: none; 
+    }
+}
+/*####################################################################*/
+@media screen and (max-width: 1300px) 
+{
+    #identity-box,
+    #page-action-buttons {
+        display: none; 
+    }	
+}
+/*####################################################################*/
+@media screen and (max-width: 900px) 
+{
+    #firefox-view-button,
+	#reload-button,
+	#back-button { 
+        display: none; 
+    }
+
+}
+/*####################################################################*/
+@media screen and (max-width: 650px) 
+{
+	.titlebar-button.titlebar-max{ 
+        display: none !important; 
+    }
+    #tabbrowser-tabs .tabs-newtab-button { 
+        visibility: visible !important; 
+    }
+}
+/*####################################################################*/
+@media screen and (min-width: 451px) 
+{
+    :root[tabsintitlebar][sizemode="normal"] {
+        --uc-window-drag-space-width: 24px; 
+    }
+	#navigator-toolbox {
+		--uc-navigationbar-width: 70vw; 
+		--uc-toolbar-height: 41px; 
+		--uc-urlbar-min-width: 30vw; 
+	}
+	#TabsToolbar {
+		margin-left: var(--uc-navigationbar-width);
+	}
+	#navigator-toolbox > #nav-bar {
+		margin-right: calc(100vw - var(--uc-navigationbar-width));
+		margin-top: calc(0px - var(--uc-toolbar-height));
+	}
+}
+/*####################################################################*/
