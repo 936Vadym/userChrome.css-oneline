@@ -9,6 +9,7 @@
 Коротше це типу бекап, але якщо Вам сподобалось - будь ласка користуйтесь.
 
 Для відтворення вигляду подібно до мого - рекомендую розширення:
+![screen](screen.png)
 - 1: [Tab counter автор WaldiPL](https://addons.mozilla.org/uk/firefox/addon/tabcounter-1/): Просто зручно бачити кіл-сть вкладок.
     ![Tab Counter](Tab-counter.png)
 - 2: [Auto Tab Discard автор tlintspr](https://addons.mozilla.org/uk/firefox/addon/auto-tab-discard/): Вивантажувати самому або автоматично. У мене вкладок в середньому відкрито 50-70. Через що LibreWolfe Portable підвисає.  
@@ -30,4 +31,4 @@
 - 6: [Simple Tab Groups автор Drive4ik](https://addons.mozilla.org/uk/firefox/addon/simple-tab-groups/).
 
 А також треба розставити іконки на панелі.
-![screen](screen.png)
+
