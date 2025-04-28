@@ -31,8 +31,52 @@
 
 - 4: [NoScript Security Suite автор Giorgio Maone](ns.mozilla.org/uk/firefox/addon/noscript/): Більшість нав'язливої реклами та відстежуваних штук - йде саме від скріптів. Те що не може заблокувати "uBlock Origin", просто не запустить це розширення.
 - "Sideberry" або "Tab Center Reborn" (довгий час я саме ним користувався, але донедавна встановив Sideberry).
+
+**Налаштування "Tab Center Reborn":**
+![set](set-tab.png)
+**Власна таблиця стилів "Tab Center Reborn":**
+```
+#sidebar-box {
+  max-width: 192px;
+}
+     /* 
+.tab.discarded {
+  font-style: italic;
+}
+    */
+.tab.discarded .tab-title {
+  opacity: 0.65; /* default is 0.5 */
+}
+.tab.discarded .tab-meta-image {
+  opacity: 0.6; /* default is 0.45 */
+}
+.tab.unread {
+  color: green;
+}
+#tablist-wrapper:not(.shrinked) #tablist .tab-meta-image,
+#tablist-wrapper:not(.shrinked) #pinnedtablist:not(.compact) .tab-meta-image {
+  background-size: 700% !important;
+}
+#sidebar-header {
+  background: #0C0C0D;
+  border-bottom: none !important;
+}
+#sidebar-splitter {
+  border-right-color: #0C0C0D !important;
+  border-left-color: #0C0C0D !important;
+}
+#sidebar-switcher-target {
+  filter: invert(100%);
+}
+
+#topmenu,
+#sidebar-close {
+  display: none;
+}
+
+```
 - 5: Список усіх вкладок - це дефолтний функціонал, той що з права поряд з кнопками "згорнути, розширити, закрити", але в другому місці, з іншою іконкою. Тому просто звернув увагу.
 - 6: [Simple Tab Groups автор Drive4ik](https://addons.mozilla.org/uk/firefox/addon/simple-tab-groups/).
 
-А також треба розставити іконки на панелі.
+## Не забудьте розставити іконки на панелі.
 
